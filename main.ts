@@ -12,7 +12,7 @@
 import { cpSync, existsSync, mkdirSync, writeFileSync } from 'node:fs';
 import { join } from 'node:path';
 import { fileURLToPath } from 'node:url';
-import { buildDossier } from './vendor/makefun-threejs.ts';
+import { buildDossier } from './vendor/makefun-game.ts';
 
 // The scorer's own caps (reference/gate.json): only text_max_bytes shapes the
 // dossier bytes; the others refuse an entry the scorer would refuse — more

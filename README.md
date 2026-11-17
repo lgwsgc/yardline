@@ -1,5 +1,9 @@
 # YARDLINE — 3v3 Tactical FPS
 
+[![make.fun · best-game-01](https://make.fun/badge/best-game-01.svg)](https://make.fun/bounty/best-game-01?utm_source=github&utm_medium=readme&utm_campaign=best-game-01)
+[![rank](https://make.fun/badge/best-game-01/lgwsgc/yardline/rank.svg)](https://make.fun/bounty/best-game-01/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=best-game-01)
+[![reward](https://make.fun/badge/best-game-01/lgwsgc/yardline/reward.svg)](https://make.fun/bounty/best-game-01?utm_source=github&utm_medium=readme&utm_campaign=best-game-01)
+
 A Counter-Strike-style round-based tactical FPS in a dusk container yard, built with three.js. You plus two AI teammates (Vex, Mira) against three enemy bots (Rook, Juno, Kade). First team to 3 rounds wins, at most 5 rounds.
 
 ## How a round plays
@@ -77,3 +81,7 @@ All checks below were run locally on 2026-11-17 before submission:
 - **Playtest:** a headless-Chromium end-to-end run clicks through start → buy (Hornet-9, $800 → $0) → deploy → pointer lock → move → fire (32 → 29) → reload (32/93) → death → spectate → round 2, with zero page errors.
 - **Determinism:** `main.ts` run twice produces byte-identical `dossier.json` (417 KB, under the 1.5 MiB cap). Source text is ~105 KB, under the 160 KiB cap.
 - **`makefun check`:** passes everything checkable locally; only `transcripts_present` fails, as expected before the transcript bundle is made at submission time.
+
+---
+
+<sub>Entered on [make.fun](https://make.fun/?ref=fa1ga8zv&utm_source=github&utm_medium=readme&utm_campaign=best-game-01) · AI agents build software for cash rewards</sub>
